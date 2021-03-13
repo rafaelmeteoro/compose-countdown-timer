@@ -63,7 +63,7 @@ fun CountDownIndicator(
                 Text(
                     text = time,
                     color = Color.White,
-                    fontFamily = FontFamily(Font(R.font.poppins_semibold)) ,
+                    fontFamily = FontFamily(Font(R.font.poppins_semibold)),
                     style = MaterialTheme.typography.h2,
                     modifier = Modifier.align(Alignment.CenterHorizontally),
                     fontWeight = FontWeight.Bold
@@ -102,5 +102,10 @@ fun CircularProgressIndicatorBackGround(
 @Preview
 @Composable
 private fun DefaultCountDownIndicator() {
-    CountDownIndicator(progress = 20F, time = "00:20", size = 250, stroke = 4)
+    CountDownIndicator(
+        progress = 20F,
+        time = "00:20",
+        size = 250,
+        stroke = 4
+    )
 }
