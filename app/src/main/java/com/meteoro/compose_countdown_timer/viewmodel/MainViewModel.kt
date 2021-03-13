@@ -5,8 +5,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.meteoro.compose_countdown_timer.helper.SingleLiveEvent
-import com.meteoro.compose_countdown_timer.helper.Utility
-import com.meteoro.compose_countdown_timer.helper.Utility.formatTime
+import com.meteoro.compose_countdown_timer.utils.Utility
+import com.meteoro.compose_countdown_timer.utils.Utility.formatTime
 
 class MainViewModel : ViewModel() {
 

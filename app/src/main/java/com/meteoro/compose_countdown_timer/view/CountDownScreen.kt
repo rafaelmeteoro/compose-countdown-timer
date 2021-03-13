@@ -18,8 +18,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.meteoro.compose_countdown_timer.R
-import com.meteoro.compose_countdown_timer.helper.Utility
-import com.meteoro.compose_countdown_timer.helper.Utility.formatTime
+import com.meteoro.compose_countdown_timer.utils.Utility
+import com.meteoro.compose_countdown_timer.utils.Utility.formatTime
 import com.meteoro.compose_countdown_timer.view.components.CountDownButton
 import com.meteoro.compose_countdown_timer.view.components.CountDownIndicator
 import com.meteoro.compose_countdown_timer.view.components.ShowCelebration

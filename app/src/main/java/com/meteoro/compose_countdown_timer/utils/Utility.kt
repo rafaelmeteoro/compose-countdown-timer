@@ -1,4 +1,4 @@
-package com.meteoro.compose_countdown_timer.helper
+package com.meteoro.compose_countdown_timer.utils
 
 import java.util.concurrent.TimeUnit
 
